@@ -8,5 +8,10 @@ namespace Support
         {
             Console.ReadKey();
         }
+
+        public static void Print(string msg)
+        {
+            Console.WriteLine(msg);
+        }
     }
 }
