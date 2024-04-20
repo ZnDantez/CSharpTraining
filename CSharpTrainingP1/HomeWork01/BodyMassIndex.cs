@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace HomeWork01
 {
-    class BodyMassIndex
+    public class BodyMassIndex
     {
         //2. Ввести вес и рост человека.
         //Рассчитать и вывести индекс массы тела(ИМТ)
@@ -15,7 +15,18 @@ namespace HomeWork01
 
         public static void Do()
         {
+            double bmi, height, weight;
 
+            Console.Write("Введите рост: ");
+            height = Convert.ToDouble(Console.ReadLine());
+            Console.Write("Введите вес: ");
+            weight = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine();
+
+            bmi = weight / (100 * (height * height));
+
+            Console.WriteLine($"ИМТ = {bmi}");
+            Console.ReadLine();
         }
     }
 }

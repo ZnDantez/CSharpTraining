@@ -6,7 +6,7 @@ namespace CSharpTrainingP1
     {
         static void Main(string[] args)
         {
-            HomeWork01.Questionnaire.Do();
+            HomeWork01.PrintInfo.Do();
         }
     }
 }
