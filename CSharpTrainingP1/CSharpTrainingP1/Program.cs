@@ -6,7 +6,7 @@ namespace CSharpTrainingP1
     {
         static void Main(string[] args)
         {
-            Lesson02.Class1.Do4();
+            Lesson02.Class1.Do8();
         }
     }
 }
