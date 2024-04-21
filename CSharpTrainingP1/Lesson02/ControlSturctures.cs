@@ -2,7 +2,7 @@
 
 namespace Lesson02
 {
-    public class Class1
+    public class ControlSturctures
     {
         // Управляющие конструкции
 
@@ -146,7 +146,7 @@ namespace Lesson02
 
         #endregion
 
-        #region l7
+        #region l7 comparison
 
         public static void Do7()
         {
@@ -241,8 +241,6 @@ namespace Lesson02
         }
 
         #endregion
-
-        // Перекинуть все в отдельную библиотеку
 
     }
 }
