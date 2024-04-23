@@ -49,8 +49,50 @@ namespace Lesson03
 
         #endregion
 
+        #region Structure
+
+        struct Worker
+        {
+            public string name;
+            public int age;
+            public int salary;
+
+            public Worker(string name, int age, int salary)
+            {
+                this.name = name;
+                this.age = age;
+                this.salary = salary;
+            }
+
+            public string Print()
+            {
+                return $"Name = {name}, age = {age}, salary = {salary}";
+            }
+        }
+
+        #endregion
+
         public static void Do()
         {
+            #region TryParse
+
+            int n = 0; //Convert.ToInt32(Console.ReadLine());
+
+            var flag = int.TryParse(Console.ReadLine(), out n);
+            Console.WriteLine(flag ? "Данные хорошие" : "Данные плохие");
+
+            #endregion
+
+            Worker wk1 = new Worker()
+            {
+                name = "Dima",
+                age = 40,
+                salary = 2000
+            };
+            Worker wk2 = new Worker("Jenya", 23, 1000);
+
+            Console.WriteLine(wk1.Print());
+
             int a = 1;
             int b = 2;
 
