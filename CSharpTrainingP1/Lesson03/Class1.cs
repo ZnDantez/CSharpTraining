@@ -6,6 +6,8 @@ namespace Lesson03
     {
         // Методы. От структур к объектам. Исключения
 
+        #region PrintCenter
+
         static void PrintCenter(double msg, int offset)
         {
             Console.SetCursorPosition(Console.WindowWidth / 2 - msg.ToString().Length / 2,
@@ -30,8 +32,32 @@ namespace Lesson03
             return x + y;
         }
 
+        #endregion
+
+        #region Reference
+
+        static void Swap(ref int vA, ref int vB)
+        {
+            Console.WriteLine($"vA = {vA}, vB = {vB}");
+
+            int temp = vA;
+            vA = vB;
+            vB = temp;
+
+            Console.WriteLine($"vA = {vA}, vB = {vB}");
+        }
+
+        #endregion
+
         public static void Do()
         {
+            int a = 1;
+            int b = 2;
+
+            Console.WriteLine($"a = {a}, b = {b}");
+            Swap(ref a, ref b);
+            Console.WriteLine($"a = {a}, b = {b}");
+
             Console.ReadLine();
 
             double res = G(12, 33);//f(2.2)
