@@ -6,7 +6,7 @@ namespace CSharpTrainingP1
     {
         static void Main(string[] args)
         {
-            Lesson03.Class1.Do();
+            Practice03.Tabulation.Do1();
         }
     }
 }
