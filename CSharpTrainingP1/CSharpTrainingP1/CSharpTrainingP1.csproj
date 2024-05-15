@@ -10,8 +10,10 @@
     <ProjectReference Include="..\HomeWork02\HomeWork02.csproj" />
     <ProjectReference Include="..\Lesson01\Lesson01.csproj" />
     <ProjectReference Include="..\Lesson02\Lesson02.csproj" />
+    <ProjectReference Include="..\Lesson03\Lesson03.csproj" />
     <ProjectReference Include="..\Practice01\Practice01.csproj" />
     <ProjectReference Include="..\Practice02\Practice02.csproj" />
+    <ProjectReference Include="..\Practice03\Practice03.csproj" />
     <ProjectReference Include="..\Support\Support.csproj" />
   </ItemGroup>
 
