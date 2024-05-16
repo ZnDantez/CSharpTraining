@@ -6,7 +6,7 @@ namespace CSharpTrainingP1
     {
         static void Main(string[] args)
         {
-            HomeWork03.Complex.Do();
+            HomeWork03.SumOfPositiveNumbers.Do();
         }
     }
 }
